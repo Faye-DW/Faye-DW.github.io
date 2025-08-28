@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Hexo | Hexo</title><meta name="author" content="Ricky Shao"><meta name="copyright" content="Ricky Shao"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="K近邻算法算法解决的是：给定训练数据集，每一个数据已经贴好标签，对于新引入的测试数据，算法如何根据已有的训练集正确分类，因此该算法是一个懒惰学习的分类算法。 采用的策略也是多数表决法，即确定k值后，在训练数据中选出k个度量距离最近的数据，选择多数的数据类别给测试数据贴上标签。 度量距离推荐采用普遍性更强的$L_{p}$范数。 KD树的构造构造二叉平衡树，采用分治法，在一次递归中，对数据进行某一维度">
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Hexo | Hexo</title><meta name="author" content="Ricky Shao"><meta name="copyright" content="Ricky Shao"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="K近邻算法算法解决的是：给定训练数据集，每一个数据已经贴好标签，对于新引入的测试数据，算法如何根据已有的训练集正确分类，因此该算法是一个懒惰学习的分类算法。 采用的策略也是多数表决法，即确定k值后，在训练数据中选出k个度量距离最近的数据，选择多数的数据类别给测试数据贴上标签。 度量距离推荐采用普遍性更强的Lp范数。 KD树的构造构造二叉平衡树，采用分治法，在一次递归中，对数据进行某一维度上的排序（">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://example.com/2025/08/01/K%E8%BF%91%E9%82%BB%E7%AE%97%E6%B3%95/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="K近邻算法算法解决的是：给定训练数据集，每一个数据已经贴好标签，对于新引入的测试数据，算法如何根据已有的训练集正确分类，因此该算法是一个懒惰学习的分类算法。 采用的策略也是多数表决法，即确定k值后，在训练数据中选出k个度量距离最近的数据，选择多数的数据类别给测试数据贴上标签。 度量距离推荐采用普遍性更强的$L_{p}$范数。 KD树的构造构造二叉平衡树，采用分治法，在一次递归中，对数据进行某一维度">
+<meta property="og:description" content="K近邻算法算法解决的是：给定训练数据集，每一个数据已经贴好标签，对于新引入的测试数据，算法如何根据已有的训练集正确分类，因此该算法是一个懒惰学习的分类算法。 采用的策略也是多数表决法，即确定k值后，在训练数据中选出k个度量距离最近的数据，选择多数的数据类别给测试数据贴上标签。 度量距离推荐采用普遍性更强的Lp范数。 KD树的构造构造二叉平衡树，采用分治法，在一次递归中，对数据进行某一维度上的排序（">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/img/butterfly-icon.png">
 <meta property="article:published_time" content="2025-07-31T16:13:48.509Z">
-<meta property="article:modified_time" content="2025-08-28T09:20:29.547Z">
+<meta property="article:modified_time" content="2025-08-28T09:24:00.774Z">
 <meta property="article:author" content="Ricky Shao">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/img/butterfly-icon.png"><script type="application/ld+json">{
@@ -17,7 +17,7 @@
   "url": "http://example.com/2025/08/01/K%E8%BF%91%E9%82%BB%E7%AE%97%E6%B3%95/",
   "image": "http://example.com/img/butterfly-icon.png",
   "datePublished": "2025-07-31T16:13:48.509Z",
-  "dateModified": "2025-08-28T09:20:29.547Z",
+  "dateModified": "2025-08-28T09:24:00.774Z",
   "author": [
     {
       "@type": "Person",
@@ -158,9 +158,9 @@
   isHighlightShrink: false,
   isToc: true,
   pageType: 'post'
-}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/top.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Hexo</span></a><a class="nav-page-title" href="/"><span class="site-name">Hexo</span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">Untitled</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2025-07-31T16:13:48.509Z" title="Created 2025-08-01 00:13:48">2025-08-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2025-08-28T09:20:29.547Z" title="Updated 2025-08-28 17:20:29">2025-08-28</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h2 id="K近邻算法"><a href="#K近邻算法" class="headerlink" title="K近邻算法"></a>K近邻算法</h2><p>算法解决的是：给定训练数据集，每一个数据已经贴好标签，对于新引入的测试数据，算法如何根据已有的训练集正确分类，因此该算法是一个懒惰学习的分类算法。</p>
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/top.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Hexo</span></a><a class="nav-page-title" href="/"><span class="site-name">Hexo</span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">Untitled</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2025-07-31T16:13:48.509Z" title="Created 2025-08-01 00:13:48">2025-08-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2025-08-28T09:24:00.774Z" title="Updated 2025-08-28 17:24:00">2025-08-28</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h2 id="K近邻算法"><a href="#K近邻算法" class="headerlink" title="K近邻算法"></a>K近邻算法</h2><p>算法解决的是：给定训练数据集，每一个数据已经贴好标签，对于新引入的测试数据，算法如何根据已有的训练集正确分类，因此该算法是一个懒惰学习的分类算法。</p>
 <p>采用的策略也是多数表决法，即确定k值后，在训练数据中选出k个度量距离最近的数据，选择多数的数据类别给测试数据贴上标签。</p>
-<p>度量距离推荐采用普遍性更强的$L_{p}$范数。</p>
+<p>度量距离推荐采用普遍性更强的Lp范数。</p>
 <h3 id="KD树的构造"><a href="#KD树的构造" class="headerlink" title="KD树的构造"></a>KD树的构造</h3><p>构造二叉平衡树，采用分治法，在一次递归中，对数据进行某一维度上的排序（一般选取方差最大的一个维度），后选取中点作为<code>pivot</code>划分。</p>
 <h3 id="K近邻搜索"><a href="#K近邻搜索" class="headerlink" title="K近邻搜索"></a>K近邻搜索</h3><p>在二叉搜索的基础上加入了回溯算法，避免最优解在未搜索的子树。</p>
 <h3 id="python代码实现"><a href="#python代码实现" class="headerlink" title="python代码实现"></a>python代码实现</h3><blockquote>
